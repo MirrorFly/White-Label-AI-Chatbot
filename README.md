@@ -1,10 +1,10 @@
-This README provides a comprehensive guide to building and integrating a custom AI Voice Agent using the **MirrorFly AI-RAG** platform.
+This README provides a comprehensive guide to building and integrating a custom AI Chat Agent using the **MirrorFly AI-RAG** platform.
 
 ---
 
-# MirrorFly AI Voice Agent Integration
+# MirrorFly AI Chat Agent Integration
 
-Build and integrate fully customizable AI voice agents for the web using the MirrorFly AI-RAG dashboard and SDK. This solution supports real-time audio streaming, external knowledge base training (RAG), and a no-code workflow builder.
+Build and integrate fully customizable AI Chat agents for the web using the MirrorFly AI-RAG dashboard and SDK. This solution supports real-time audio streaming, external knowledge base training (RAG), and a no-code workflow builder.
 
 ## 🚀 Overview
 
@@ -146,12 +146,12 @@ The browser will prompt the user for microphone permission upon initialization. 
 ## **🤹 Key Product Offerings**
 
 * [Conversational AI Agents](https://www.mirrorfly.com/conversational-ai/)  
-* [White-label AI Voice agents](https://www.mirrorfly.com/conversational-ai/voice-agent/)  
+* [White-label AI Chat agents](https://www.mirrorfly.com/conversational-ai/chat-agent/)  
 * [Custom Chatbots](https://www.mirrorfly.com/conversational-ai/chatbot/)  
 * [500+ AI Features](https://www.mirrorfly.com/conversational-ai/features/)  
 * [Real-time Chat](https://www.mirrorfly.com/chat-api-solution.php)  
 * [HD Video Call](https://www.mirrorfly.com/video-call-solution.php)   
-* [HQ Voice Call](https://www.mirrorfly.com/video-call-solution.php)
+
 
 ## **☁️ Deployment Models \- Self-hosted and Cloud**
 
@@ -166,7 +166,7 @@ MirrorFly offers full freedom with the hosting options:
 
 # **📚 Learn More**
 
-* [MirrorFly AI Voice Agents](https://www.mirrorfly.com/conversational-ai/voice-agent/)  
+* [MirrorFly AI Chat Agents](https://www.mirrorfly.com/conversational-ai/chat-agent/)  
 * [MirrorFly AI Chatbots](https://www.mirrorfly.com/conversational-ai/chatbot/)  
 * [MirrorFly SDKs](https://www.mirrorfly.com/chat/sdk/)  
 * [MirrorFly API Documentation](https://www.mirrorfly.com/docs/)  
@@ -175,7 +175,7 @@ MirrorFly offers full freedom with the hosting options:
 
 # **🧑‍💻 Hire Experts**
 
-Need a tech team to build your AI voice agents and chatbots? [Hire a full team of experts](https://www.mirrorfly.com/hire-video-chat-developer.php). Let our team handle every step of the development process. Get a high-quality, fully-built Ai agents ready to launch, carefully built by industry experts
+Need a tech team to build your AI Chat agents and chatbots? [Hire a full team of experts](https://www.mirrorfly.com/hire-video-chat-developer.php). Let our team handle every step of the development process. Get a high-quality, fully-built Ai agents ready to launch, carefully built by industry experts
 
 # **⏱️ Round-the-clock Support**
 
