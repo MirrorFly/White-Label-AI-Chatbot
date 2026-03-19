@@ -18,15 +18,15 @@ The implementation is divided into two primary phases:
 
 ### 1. Initial Setup
 
-* **Access:** Obtain developer credentials from the MirrorFly team and log into the [MirrorFly AI Dashboard](./images/whitelable-voice-agent-one.png)
+* **Access:** Obtain developer credentials from the MirrorFly team and log into the [MirrorFly AI Dashboard](./images/whitelable-voice-agent-five.png)
 
 * **Create Agent:** Click **'Create Agents'** and select **'Chat Agent'** and click on **‘Continue’**.
 
-![MirrorFly Dashboard](./images/whitelable-voice-agent-two.png)
+![MirrorFly Dashboard](./images/whitelable-voice-agent-one.png)
 
 * **Configuration:** Provide an agent name, description, and define the initial **System Prompt** to set core behavior.
 
-![MirrorFly Dashboard](./images/whitelable-voice-agent-three.png)
+![MirrorFly Dashboard](./images/whitelable-voice-agent-two.png)
 
 ### 2. Personality & Model Settings
 
@@ -36,7 +36,7 @@ The implementation is divided into two primary phases:
 * **SDK Key**: Create an SDK Key. You’ll need this to connect the chatbot to your web platform.
 
 
-![MirrorFly Dashboard](./images/whitelable-voice-agent-four.png)
+![MirrorFly Dashboard](./images/whitelable-voice-agent-three.png)
 
 ### 3. Training with RAG (Retrieval-Augmented Generation)
 
@@ -44,7 +44,7 @@ The implementation is divided into two primary phases:
 
 * **Website Sync:** Click on the ‘Sync from website’ to sync business data directly from your website URL.
 
-![MirrorFly Dashboard](./images/whitelable-voice-agent-five.png)
+![MirrorFly Dashboard](./images/whitelable-voice-agent-four.png)
 
 ### 4. Workflow Builder
 
