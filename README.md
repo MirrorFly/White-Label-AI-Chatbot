@@ -18,8 +18,7 @@ The implementation is divided into two primary phases:
 
 ### 1. Initial Setup
 
-* **Access:** Obtain developer credentials from the MirrorFly team and log into the
-  ![MirrorFly AI Dashboard](./images/AI%20Voice%20Agent-Product-01.png)
+* **Access:** Obtain developer credentials from the MirrorFly team and log into the [MirrorFly AI Dashboard](./images/AI%20Voice%20Agent-Product-01.png)
 
 * **Create Agent:** Click **'Create Agents'** and select **'Chat Agent'** and click on **‘Continue’**.
 
@@ -34,6 +33,8 @@ The implementation is divided into two primary phases:
 * **Personality:** Set the welcome message, fallback responses, and adjust the formality and tone.
 
 * **Model Selection:** Choose from multiple available AI models (OpenAI or Anthropic agents)
+* **SDK Key**: Create an SDK Key. You’ll need this to connect the chatbot to your web platform.
+
 
 ![MirrorFly Dashboard](./images/AI%20Voice%20Agent-Product-04.png)
 
