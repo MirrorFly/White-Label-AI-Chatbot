@@ -18,7 +18,9 @@ The implementation is divided into two primary phases:
 
 ### 1. Initial Setup
 
-* **Access:** Obtain developer credentials from the MirrorFly team and log into the [MirrorFly AI Dashboard](./images/whitelable-voice-agent-five.png)
+* **Access:** Obtain developer credentials from the MirrorFly team and log into the [MirrorFly AI Dashboard](https://ragchat.contus.us/).
+
+![MirrorFly AI Dashboard](./images/whitelable-voice-agent-five.png)
 
 * **Create Agent:** Click **'Create Agents'** and select **'Chat Agent'** and click on **‘Continue’**.
 
