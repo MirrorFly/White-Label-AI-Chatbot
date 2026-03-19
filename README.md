@@ -1,19 +1,14 @@
-This README provides a comprehensive guide to building and integrating a custom AI Chat Agent using the **MirrorFly AI-RAG** platform.
-
----
-
 # MirrorFly AI Chat Agent Integration
 
-Build and integrate fully customizable AI Chat agents for the web using the MirrorFly AI-RAG dashboard and SDK. This solution supports real-time audio streaming, external knowledge base training (RAG), and a no-code workflow builder.
+Build a custom AI chat agent, and integrate it to any platform using the MirrorFly AI-RAG Dashboard, workflow builder and SDK. This white-label AI chatbot solution supports real-time messaging, external knowledge base training (RAG), and SDK documentation. 
 
 ## 🚀 Overview
 
 The implementation is divided into two primary phases:
 
-1. **Agent Creation:** Configuring the agent's personality, training it with datasets, and designing conversational flows in the MirrorFly dashboard.
+1. **Agent Creation:** Configuring the chat agent’s personality, uploading and training it with datasets, and designing conversation structure using the workflow builder. 
 
-
-2. **Agent Integration:** Embedding the agent into your web application using the MirrorFly AI SDK.
+2. **Agent Integration:** Embedding the chatbot into your web app using the MirrorFly AI SDK.
 
 
 
@@ -23,12 +18,13 @@ The implementation is divided into two primary phases:
 
 ### 1. Initial Setup
 
-* **Access:** Obtain developer credentials from the MirrorFly team and log into the [MirrorFly AI Dashboard](https://ragchat.contus.us/).
-  ![MirrorFly Dashboard](./images/AI%20Voice%20Agent-Product-01.png)
+* **Access:** Obtain developer credentials from the MirrorFly team and log into the
+  ![MirrorFly AI Dashboard](./images/AI%20Voice%20Agent-Product-01.png)
 
-* **Create Agent:** Click **'Create Agents'** and select **'Chat Agent'**.
+* **Create Agent:** Click **'Create Agents'** and select **'Chat Agent'** and click on **‘Continue’**.
 
 ![MirrorFly Dashboard](./images/AI%20Voice%20Agent-Product-02.png)
+
 * **Configuration:** Provide an agent name, description, and define the initial **System Prompt** to set core behavior.
 
 ![MirrorFly Dashboard](./images/AI%20Voice%20Agent-Product-03.png)
@@ -37,52 +33,44 @@ The implementation is divided into two primary phases:
 
 * **Personality:** Set the welcome message, fallback responses, and adjust the formality and tone.
 
-
-* **Model Selection:** Choose from multiple available AI models to power your agent.
+* **Model Selection:** Choose from multiple available AI models (OpenAI or Anthropic agents)
 
 ![MirrorFly Dashboard](./images/AI%20Voice%20Agent-Product-04.png)
 
 ### 3. Training with RAG (Retrieval-Augmented Generation)
 
-* **Datasets:** Upload knowledge bases in **PDF** or **CSV** format (Max 5MB/10 files) to provide the agent with specific domain knowledge.
+* **Datasets:** Click on the ‘Import from file’ button and select your PDF or CSV files (up to 5MB each, max 10 files) from your local device.
 
-
-* **Website Sync:** Alternatively, sync information directly from a URL to keep the agent updated with your website content.
+* **Website Sync:** Click on the ‘Sync from website’ to sync business data directly from your website URL.
 
 ![MirrorFly Dashboard](./images/AI%20Voice%20Agent-Product-06.png)
 
 ### 4. Workflow Builder
 
-Use the visual drag-and-drop canvas to define:
+### In the MirrorFly’s node-based workflow builder, design the conversational logic and automate the workflow:
 
-* Conversational paths and decision logic.
+* **Conversation Flow Control:** Use the node-based logic trees to define conditional branching, user intent routing and multi-turn dialogue paths.  
+* **API Integration**: Map requests and responses, authenticate headers and error handling for external service calls by configuring the HTTP endpoints.   
+* **Form Data Collection:** Implement structured data capture nodes with field validation, type constraints, and conditional field display logic.  
+* **Event Triggers:** Configure event-driven actions like email notifications, webhook dispatches, and message queue operations.
 
-
-* API calls and form collection.
-
-
-* Email triggers and message nodes.
+Each node supports parameter configuration, variable binding, and connection to downstream nodes, enabling complex workflow orchestration through the drag-and-drop canvas interface.
 
 ---
 
 ## 💻 Part II: Agent Integration
 
-### Prerequisites
+### **Prerequisites**
 
-* Valid **Agent ID** from the dashboard.
-
-
-* Website must run on **HTTPS** for microphone access.
-
-
-* Supported Browsers: Latest versions of Chrome, Edge, and Safari.
+* Valid Agent ID   
+* Mic access (HTTP-supported website)  
+* Latest version of Chrome, Edge, or Safari.
 
 
 
 ### 1. Install the SDK
 
-
-
+Use the below single script tag in your HTML file to add the SDK generated in the dashboard. 
 
 
 ### 2. Initialize the Agent
@@ -94,32 +82,32 @@ Define a container element and initialize the SDK:
 <div className="content" id="chatbot-root"></div>
 
 // Initialization
-    const script = document.createElement("script");
-    script.src =
-      "./build/chatbot_sdk.js?key=GY4GKNDGMM4GMNZXHBRTEOJRG43DQNZWGE3TANQ=&apiUrl=https://ragqa-chat.contus.us/rag-api";
-    script.async = true;
-
-    script.onload = () => {
-      if (window.MirrorFlyAi) {
-        // Initialize SDK once into a single shared container
-        window.MirrorFlyAi.init({
-          container: "#chatbot-root",
-          ...getSdkOptions(),
-        });
-      }
-    };
-    document.body.appendChild(script);
-
+MirrorFlyAi.init({
+  container: "#widget",
+  agentId: "<YOUR_AGENT_ID>",
+  title: "Voice Assistant",
+  theme: "dark",
+  triggerStartCall: true,
+  transcriptionEnable: true,
+  transcriptionInUi: true,
+  chatEnable: true,
+  agentConnectionTimeout: 500
+});
 ```
 
-
-
-
+### 3. Handle Callbacks
+```
+const callbacks = {
+  onTranscription: (data) => console.log("Transcription:", data),
+  onAgentConnectionState: (state) => console.log("Connection:", state),
+  onError: (error) => console.error("SDK Error:", error)
+};
+```
 
 
 ### 4. Dynamic Agent Switching
 
-If your platform uses multiple agents (e.g., Sales vs. Support), use the following to switch contexts:
+If your platform runs multiple agents (for example, Sales agent and [Custom service agent](https://www.mirrorfly.com/blog/ai-chatbots-for-customer-service/)), use the option below to switch between their contexts.
 
 ```javascript
 function switchAgent(newAgentId) {
@@ -140,7 +128,8 @@ function switchAgent(newAgentId) {
 
 ## 🛡 Security & Permissions
 
-The browser will prompt the user for microphone permission upon initialization. Ensure you handle potential errors via the `onError` callback, such as permission denials or network issues.
+During initialization, the browser prompts the user to grant microphone access. Be prepared to manage errors using the onError callback, including permission denials or connectivity issues.
+
 
 
 ## **🤹 Key Product Offerings**
