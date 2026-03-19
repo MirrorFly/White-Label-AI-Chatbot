@@ -48,7 +48,7 @@ The implementation is divided into two primary phases:
 
 ### 4. Workflow Builder
 
-### In the MirrorFly’s node-based workflow builder, design the conversational logic and automate the workflow:
+In the MirrorFly’s node-based workflow builder, design the conversational logic and automate the workflow:
 
 * **Conversation Flow Control:** Use the node-based logic trees to define conditional branching, user intent routing and multi-turn dialogue paths.  
 * **API Integration**: Map requests and responses, authenticate headers and error handling for external service calls by configuring the HTTP endpoints.   
@@ -72,7 +72,9 @@ Each node supports parameter configuration, variable binding, and connection to 
 ### 1. Install the SDK
 
 Use the below single script tag in your HTML file to add the SDK generated in the dashboard. 
-
+```
+<script src="https://d1nzh49hhug3.cloudfront.net/aiVoiceScript/uat/mirrofly/mirror-fly-ai.v1.1.1.js"></script>
+```
 
 ### 2. Initialize the Agent
 
