@@ -140,11 +140,12 @@ During initialization, the browser prompts the user to grant microphone access. 
 ## **🤹 Key Product Offerings**
 
 * [Conversational AI Agents](https://www.mirrorfly.com/conversational-ai/)  
-* [White-label AI Chat agents](https://www.mirrorfly.com/conversational-ai/chat-agent/)  
+* [White-label AI Voice agents](https://www.mirrorfly.com/conversational-ai/voice-agent/)  
 * [Custom Chatbots](https://www.mirrorfly.com/conversational-ai/chatbot/)  
 * [500+ AI Features](https://www.mirrorfly.com/conversational-ai/features/)  
 * [Real-time Chat](https://www.mirrorfly.com/chat-api-solution.php)  
-* [HD Video Call](https://www.mirrorfly.com/video-call-solution.php)   
+* [HD Video Call](https://www.mirrorfly.com/video-call-solution.php)  
+* [HQ Voice Call](https://www.mirrorfly.com/video-call-solution.php)
 
 
 ## **☁️ Deployment Models \- Self-hosted and Cloud**
@@ -152,32 +153,36 @@ During initialization, the browser prompts the user to grant microphone access. 
 MirrorFly offers full freedom with the hosting options:
 
 **Self-hosted:** Deploy your client on your own data centers, private cloud or third-party servers.  
-[Check out our multi-tenant cloud hosting](https://www.mirrorfly.com/self-hosted-chat-solution.php)  
+[Check out our multi-tenant cloud hosting](https://www.mirrorfly.com/self-hosted-chat-solution.php)
 
-**Cloud:** Host your client on MirrorFly’s multi-tenant cloud servers.   
+**Cloud:** Host your client on MirrorFly’s multi-tenant cloud servers.  
 [Check out our multi-tenant cloud hosting](https://www.mirrorfly.com/multi-tenant-chat-for-saas.php)
 
 
 # **📚 Learn More**
 
-* [MirrorFly AI Chat Agents](https://www.mirrorfly.com/conversational-ai/chat-agent/)  
 * [MirrorFly AI Chatbots](https://www.mirrorfly.com/conversational-ai/chatbot/)  
+* [MirrorFly AI Voice Agents](https://www.mirrorfly.com/conversational-ai/voice-agent/)  
 * [MirrorFly SDKs](https://www.mirrorfly.com/chat/sdk/)  
 * [MirrorFly API Documentation](https://www.mirrorfly.com/docs/)  
 * [Product Tutorials](https://www.mirrorfly.com/tutorials/)  
-* [See who's using MirrorFly](https://www.mirrorfly.com/chat-use-cases.php)
+* [See who's using MirrorFly](https://www.mirrorfly.com/chat-use-cases.php)  
+* [Tutorial: Build Custom AI Chatbot](https://www.mirrorfly.com/blog/how-to-build-a-custom-ai-chatbot/)  
+* [Tutorial: Build Custom LLM Chatbot](https://www.mirrorfly.com/blog/build-custom-llm-chatbot/)  
+* [Product Review: AI Chatbots](https://www.mirrorfly.com/blog/best-ai-chatbot/)  
+* [Product Review: White-label chat agents](https://www.mirrorfly.com/blog/best-white-label-ai-chatbots/)
+
 
 # **🧑‍💻 Hire Experts**
-
-Need a tech team to build your AI Chat agents and chatbots? [Hire a full team of experts](https://www.mirrorfly.com/hire-video-chat-developer.php). Let our team handle every step of the development process. Get a high-quality, fully-built Ai agents ready to launch, carefully built by industry experts
+Looking for a team to build your AI chatbots and voice agents? [Work with our experts](https://www.mirrorfly.com/hire-video-chat-developer.php) who manage the entire development process and deliver production-ready AI agents built to industry standards.
 
 # **⏱️ Round-the-clock Support**
 
-If you’d like to take help when working with our solution, feel free to [contact our experts](https://www.mirrorfly.com/contact-sales.php) who will be available to help you anytime of the day or night. 
+Need help with our solution? Our experts are [available 24/7](https://www.mirrorfly.com/contact-sales.php) and are always ready to assist you.
 
 ## **💼 Become a Part of our amazing team**
 
-We're always on the lookout for talented developers, support specialists, and product managers. Visit our [careers page](https://www.contus.com/careers.php) to explore current opportunities.
+Interested in joining our team? We regularly hire developers, support specialists, and product managers. Head to our [careers page](https://www.contus.com/careers.php) to view open roles.
 
 ## **🗞️ Get the Latest Updates**
 
