@@ -143,7 +143,7 @@ During initialization, the browser prompts the user to grant microphone access. 
 * [White-label AI Voice agents](https://www.mirrorfly.com/conversational-ai/voice-agent/)  
 * [Custom Chatbots](https://www.mirrorfly.com/conversational-ai/chatbot/)  
 * [500+ AI Features](https://www.mirrorfly.com/conversational-ai/features/)  
-* [Real-time Chat](https://www.mirrorfly.com/chat-api-solution.php)  
+* [Real-time Chat API](https://www.mirrorfly.com/chat/)  
 * [HD Video Call](https://www.mirrorfly.com/video-call-solution.php)  
 * [HQ Voice Call](https://www.mirrorfly.com/video-call-solution.php)
 
